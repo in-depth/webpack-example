@@ -1,0 +1,26 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "webpack-example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/in-depth/webpack-example.git"
+  },
+  "author": "Rowan Savage (rowan@indepth.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/in-depth/webpack-example/issues"
+  },
+  "homepage": "https://github.com/in-depth/webpack-example#readme",
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
